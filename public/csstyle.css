@@ -1,0 +1,65 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.cshead {
+    background-color: black;
+    height: 130px;
+}
+
+.top {
+    color: lime;
+    transition: 5s ease-in-out;
+}
+
+.top:hover {
+    color: rgb(230, 17, 212);
+}
+
+.user {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.sub1 {
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    display: block;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub2 {
+    background-color: teal;
+}
+
+.sub3 {
+    border: 1px solid rgb(241, 239, 243);
+    padding: 8px;
+    text-align: center;
+}
+
+.sub4 {
+    text-align: center;
+}
+
+aside {
+    width: 30%;
+    padding-left: 10px;
+    margin-left: 150px;
+    float: right;
+    text-indent: 20px;
+    text-align: left;
+    border: 1px solid rgb(241, 239, 243);
+    padding: 1px;
+}
+
+section {
+    width: 70%;
+    padding-right: 1px;
+    margin-right: 150px;
+    text-indent: 10px;
+    text-align: left;
+}
